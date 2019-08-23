@@ -1,12 +1,23 @@
 {
   "name": "webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "1.webpack4实战 2 webpack优化 3 webpack源码 4实现插件 加载器",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "expose-loader": "^0.7.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
 }
