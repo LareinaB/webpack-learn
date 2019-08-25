@@ -3,7 +3,7 @@ body{
 }
 
 .avator{
-    background-image: url("./img/avator.png");
+    background-image: url("../../02img/img/avator.png");
     width: 48px;
     height: 64px;
 }
